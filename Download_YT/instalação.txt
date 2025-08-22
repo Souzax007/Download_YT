@@ -1,0 +1,17 @@
+Para que possa usar a ferramenta é necessário instalar as seguintes bibliotecas:
+1 - pip install yt_dlp
+2 - pip install ffmpeg-python yt-dlp
+Se quiser garantir que o ffmpeg usado pela lib esteja disponível, instale também:
+3 - pip install imageio[ffmpeg]
+
+OBS:
+se você estiver usando windows, você deve passar o caminho onde o script irá armazenar o download.
+pasta_download = r"C:\Users\usuário\Downloads"
+
+se você estiver no Linux deve passar o caminho também
+pasta_download = "/home/marcos/Área de Trabalho/PYTHON/"
+
+
+
+comando para gerar o .exe
+C:\Python313\python.exe -m PyInstaller --onefile --windowed --add-data "ffmpeg;ffmpeg" main.py
