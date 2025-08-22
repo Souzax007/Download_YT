@@ -1,9 +1,15 @@
 Para que possa usar a ferramenta é necessário instalar as seguintes bibliotecas:
+
 1 - pip install yt_dlp
+
 2 - pip install ffmpeg-python yt-dlp
+
 Se quiser garantir que o ffmpeg usado pela lib esteja disponível, instale também:
-3 - pip install imageio[ffmpeg]
-4 - extrair o arquivo zip chamado "ffmpeg"
+
+    3 - pip install imageio[ffmpeg]
+
+4 - extrair o arquivo zip chamado "ffmpeg", a pasta tem um arquivo .exe a pasta que tem esse .exe
+tem que ficar na raiz do projeto.
 
 
 
